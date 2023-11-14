@@ -4,8 +4,8 @@ import hotdog from '../Images/Menu/hotdog.png'
 import frenchFriesCheese from '../Images/Menu/french-fries-cheese.png'
 import chickenAlfredo from '../Images/Menu/chicken-alfredo.png'
 import chickenBurger from '../Images/Menu/chicken-burger.png'
-import peperoniPizza from '../Images/Menu/peperoni-pizza.jpg'
-import { FoodCard } from './FoodCard'
+import peperoniPizza from '../Images/Menu/peperoni-pizza.png'
+import { FoodCard } from '.'
 
 export const Menu = () => {
 
