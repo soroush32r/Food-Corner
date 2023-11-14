@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className="flex justify-between px-16 items-center bg-black text-white">
       <div className="perspective-1000">
-        <Link to={'/'}>
+        <Link to={'/'} className="rounded-3xl">
           <img src={logo} className="w-32 h-32 rounded-md transform transition-transform ease-in-out hover:rotate-12"/>
         </Link>
       </div>
