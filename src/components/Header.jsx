@@ -10,10 +10,10 @@ export const Header = () => {
         </Link>
       </div>
       <div className="flex w-96 justify-around">
-        <Link to={'/'}>Home</Link>
-        <Link to={'/menu'}>Menu</Link>
-        <Link to={'/about'}>About</Link>
-        <Link to={'/contact'}>Contact</Link>
+        <Link to={'/'} className="hover:text-yellow-300">Home</Link>
+        <Link to={'/menu'} className="hover:text-yellow-300">Menu</Link>
+        <Link to={'/about'} className="hover:text-yellow-300">About</Link>
+        <Link to={'/contact'} className="hover:text-yellow-300">Contact</Link>
       </div>
     </header>
   )

@@ -7,10 +7,10 @@ export const Footer = () => {
   return (
     <footer className='flex flex-col items-center text-white bg-black'>
       <div className='flex justify-around w-96 py-5'>
-        <a href='https://instagram.com/#' className='rounded-xl bg-white'><img src={instagram}/></a>
-        <a href='https://youtube.com/#' className='rounded-xl bg-white'><img src={youtube}/></a>
-        <a href='https://linkedin.com/#' className='rounded-xl bg-white'><img src={linkedin}/></a>
-        <a href='https://twitter.com/#' className='rounded-xl bg-white'><img src={twitter}/></a>
+        <a href='https://instagram.com/#' className='rounded-xl bg-white hover:bg-yellow-300'><img src={instagram}/></a>
+        <a href='https://youtube.com/#' className='rounded-xl bg-white hover:bg-yellow-300'><img src={youtube}/></a>
+        <a href='https://linkedin.com/#' className='rounded-xl bg-white hover:bg-yellow-300'><img src={linkedin}/></a>
+        <a href='https://twitter.com/#' className='rounded-xl bg-white hover:bg-yellow-300'><img src={twitter}/></a>
       </div>
       <div className='py-5'>
         &copy; Created by Sarir Team
