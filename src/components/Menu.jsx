@@ -26,7 +26,7 @@ export const Menu = () => {
       <div className='text-center'>
         <h1 className="text-6xl pb-16">Our Menu</h1>
       </div>
-      <div className='grid grid-cols-3 gap-9 '>
+      <div className='grid grid-cols-3 gap-9 px-56'>
         {foodMenu.map(({ id, name, price, src }) => (   
           <FoodCard key={id} src={src} name={name} price = {price}/>
         ))}
