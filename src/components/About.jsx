@@ -2,8 +2,8 @@ import  aboutHeader  from '../Images/About.jpg'
 
 export const About = () => {
   return (
-    <div>
-      <div className='w-screen h-72 flex flex-col items-center overflow-hidden'>
+    <div className='w-auto'>
+      <div className='h-72 flex flex-col items-center overflow-hidden'>
         <img src={aboutHeader} className='w-full h-full object-cover'/>
       </div>
       <div className='text-center py-16'>
